@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  margin: 0;
+}
+
+.ow__column__layout {
+  display: flex;
+  background-color: grey;
+}
+
+.ow__navigation__column {
+  background: #d7e8d4;
+  flex: 1;
+  padding: 1em;
+}
+
+.ow__main__column {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+
+.ow__main__content {
+  display: flex;
+  flex-direction: row;
+  flex: 4;
+  min-height: 60vh;
+  padding: 1em;
+}
+
+.ow__main__header {
+  background: yellowgreen;
+  height: 20vh;
+  padding: 1em;
+}
+
+.ow__main__footer {
+  background: yellowgreen;
+  height: 20vh;
+  padding: 1em;
+}
